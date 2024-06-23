@@ -7,9 +7,6 @@ version = '1.0.0'
 install_requires = [
     'setuptools',
 
-    'certbot>=0.21.1',
-    'zope.interface',
-
     'requests',
     'lxml',
     'six',
@@ -29,18 +26,13 @@ setup(
     author='TSaaristo',
     author_email='tero.saaristo@gmail.com',
     license='MIT',
-    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
+    python_requires='>3.5',
     classifiers=[
         'Environment :: Plugins',
         'Intended Audience :: System Administrators',
         'License :: OSI Approved :: Apache Software License',
         'Operating System :: POSIX :: Linux',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Topic :: Internet :: WWW/HTTP',
